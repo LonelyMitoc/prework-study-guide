@@ -11,7 +11,8 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img
-      src="./assets/bowtie-cat.png"
+      src="./assets/bowtie-cat.png" 
+      id="cat"
       alt="Profile image of cat wearing a bow tie."
       />
       <h2>✨ Open the Console to See What's Happening ✨</h2>
@@ -21,7 +22,7 @@
         <h2>HTML</h2>
         <ul>
           <li>The head element contains information about the webpage.</li>
-          <li>The head includes info such as language,metadata such as charset, http-equiv, viewport and 
+          <li>The head includes info such as language, metadata such as charset, http-equiv, viewport and 
             title shown in the tabs</li>
           <li>i.e. (html lang="en"), (meta charset="UTF-8), (meta http-equiv="X-UA=Copmpatible" content="IE=edge"), 
             (meta name="viewport" content="width=device-width, initial-scale=1.0")
@@ -49,12 +50,23 @@
       <section class="card" id="git-section">  
         <h2>Git</h2>
         <ul>
+          <li>Github is where our repository will be located and will use Git Bash or Bash to clone, code and push our changes.</li>
+          <li>git clone (URL or SSH URL of the repository): clone the repository to current local folder.</li>
           <li>git status: checks what branch we are currently on.</li>
           <li>git checkout -b "branch-name": creates a new branch and swithces to it.</li>
-          <li>git add -A: to prep for commit to the push changes from VS code.</li>
-          <li>git pull origin main: to check we are at the correct branch for the push.</li>
+          <li>git add -A: to add the changes to the staging area.</li>
+          <li>git commit -A: commit all to the local repository or -m "message": commit with message.</li>
+          <li>git pull origin main: to make sure we are at the correct main branch for the push.</li>
           <li>git push origin "branch-name": send merge request.</li>
+          <li>git pull origin main" again to sync the local repository with the remote repository on Github.</li>
         </ul>
+        <br />
+        <img
+          src="./assets/GitCheatSheet.png"
+          id="cheat"
+          alt="Git flow chart"
+          />
+          <br />
       </section>
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
@@ -62,7 +74,7 @@
           <li>A variable is a named container that allows us to store data in our code.</li>
           <li>Control flow is the order in which a computer executes code in a script.</li>
           <li>Set variables with [var "name of var" = "string",number,bolean, etc.</li>
-          <li>Truthy and Falsy (0, -0, On, "", null, undefined, Nan, false.</li>
+          <li>Truthy and Falsy (0, -0, On, "", null, undefined, Nan, false).</li>
           <li>"===" to define two values.</li>
           <li>Index starts at 0.</li>
           <li>To create loop: "for(var x=0; x < varname.length; x++) x++ is x+1.</li>

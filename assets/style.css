@@ -16,10 +16,18 @@ h2 {
     text-align: center;
 }
 
-img {
+#cat {
     display: block;
     height: 50px;
     width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cheat {
+    display: block;
+    height: 350px;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
 }
